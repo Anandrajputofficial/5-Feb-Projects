@@ -1,0 +1,113 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+body{
+  background-image:url(bg.png);
+  width: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: #818181;
+}
+nav{
+  display: flex;
+  width: 100%;
+  height: 70px;
+  background-color: black;
+  gap: 200px;
+  border-radius: 25px;
+}
+nav div>img{
+  margin-top: 20px;
+  width: 100px;
+  margin-left: 30px;
+  height: 35px;
+}
+nav div>img:hover{
+  background-color: rgb(109, 66, 196);
+  width: 200px;
+  height: 80px;
+  border: 2px solid yellowgreen;
+  border-radius: 30px;
+  padding: 20px;
+
+}
+.list{
+  display: flex;
+  margin-top: 20px;
+}
+div ul{
+  display: flex;
+  justify-content: space-between;
+  gap: 50px;
+  font-family: 'Poppins', sans-serif;
+}
+
+div ul li{
+  list-style: none;
+  display: flex; 
+  color: white;
+}
+.buttontag{
+ margin-left: 300px;
+ background-color: rgb(186, 11, 151);
+ cursor: pointer;
+ padding: 10px 20px;
+ margin-top: 4%;
+ border: none;
+ border-radius: 5px;
+ color: white;
+}
+.buttontag:hover{
+  background-color: rgb(105, 194, 194);
+  color: black;
+}
+
+main{
+  /* display: flex; */
+  align-items: center;
+  justify-content: center;
+  margin-top: 200px;
+  margin-left: 500px;
+}
+.hero{
+  align-items: center;
+  justify-content: center;
+  
+}
+.mainhero{
+  align-items: center;
+  justify-content: center;
+}
+.mainhero button{
+  margin-left: 100px;
+}
+.hero h1{
+  font-size: 65px;
+  color: white;
+  padding-right: 380px;
+  font-family: 'Poppins', sans-serif;
+}
+.hero h5{
+  font-size: 15px;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  padding-left: 80px;
+  font-family: 'Itim', cursive;
+}
+.button2{
+  background-color: rgb(186, 11, 151);
+  cursor: pointer;
+  padding: 10px 20px;
+  margin-top: 2%;
+  border: none;
+  border-radius: 5px;
+  color: white;
+  align-items: center;
+  
+}
+.button2:hover{
+  background-color: black;
+  
+}
